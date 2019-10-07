@@ -10,7 +10,7 @@ public class App
     int a;	
     public static void main( String[] args )
     {
-	app = new App();
+	App app = new App();
 	app.a = 1;
         System.out.println( "Hello World!" );
 	System.out.println( "la valeur de l'attribut est :" + app.a );
